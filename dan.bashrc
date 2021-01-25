@@ -1,6 +1,10 @@
 
+alias updateclock='sudo ntpdate pool.ntp.org'
+alias bashrc='code /home/danbitter/repos/terminal-customizations/dan.bashrc'
+cd() { builtin cd "$@"; la; } 
 alias reload='source /home/danbitter/repos/terminal-customizations/.bashrc'
 # https://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/sample-bashrc.html
+# https://natelandau.com/my-mac-osx-bash_profile/
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
